@@ -6,7 +6,7 @@ type Getter interface {
 
 // function parameters
 type Adder interface {
-	Add() (item Item)
+	Add(item Item)
 }
 
 type Item struct {
